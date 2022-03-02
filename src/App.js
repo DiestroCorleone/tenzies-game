@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import Confetti from 'react-confetti';
 import { nanoid } from 'nanoid';
 import Die from './components/Die';
-import Confetti from './components/Confetti';
 
 export default function App() {
   const [dice, setDice] = useState(allNewDice);
